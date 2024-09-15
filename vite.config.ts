@@ -9,6 +9,10 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     open: true
+  },
+  build: {
+    outDir: 'docs'
   }
+   
   
 })
