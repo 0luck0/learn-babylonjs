@@ -1,6 +1,7 @@
 import { Color3, Color4,  DefaultRenderingPipeline,  Engine, FreeCamera, HemisphericLight, PointLight, Scene, SceneLoader,  Vector3 } from "@babylonjs/core"
 import "@babylonjs/loaders";
 
+
 export class AppOne {
     engine: Engine;
     scene: Scene;
@@ -59,8 +60,8 @@ var createScene = function (engine: Engine, canvas: HTMLCanvasElement) {
     light3.intensity = 10;
     light3.radius = 110;
     light3.diffuse = new Color3(0, 1, 0);
-    
-    SceneLoader.AppendAsync("", "/mesh/萌三兄弟.glb", scene).then(() => {
+    let baseUrl = import.meta.env.MODE === 'development' ? '/' : '/learn-babylonjs/';
+    SceneLoader.AppendAsync("", baseUrl+"mesh/萌三兄弟.glb", scene).then(() => {
         // do nothing
     });
     //mass
