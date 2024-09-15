@@ -33,6 +33,11 @@
   resolved "https://registry.npmmirror.com/@babylonjs/core/-/core-7.25.1.tgz#d7b63ea98027c6dcfb2e243614842700cdeea9fd"
   integrity sha512-hdzGUJH0Oc/tCAmBGe1m+uR1AbD6fAIUgsJghvVHxUjER/RWJR0x9GiM03nvkVH2yoCB7yiAkbFnmZSl/muDUg==
 
+"@babylonjs/loaders@^7.25.1":
+  version "7.25.1"
+  resolved "https://registry.npmmirror.com/@babylonjs/loaders/-/loaders-7.25.1.tgz#4d4396aab8c9bdb770a0e3c9050a258802ccc75a"
+  integrity sha512-tK80AFPj7cSfPscPQMdc47djeY5EsCdw1R4yV8myttxmWDMfWgW98JoPRVzeVXDLn6xFbnIuij0O1i+DyDEo1g==
+
 "@esbuild/aix-ppc64@0.21.5":
   version "0.21.5"
   resolved "https://registry.npmmirror.com/@esbuild/aix-ppc64/-/aix-ppc64-0.21.5.tgz#c7184a326533fcdf1b8ee0733e21c713b975575f"
